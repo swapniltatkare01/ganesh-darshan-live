@@ -6,7 +6,7 @@ export default function Hero() {
             <h1 className="text-3xl font-bold">Ganesh Darshan Live</h1>
 
             <p className="text-gray-600">Experience live darshan of famous Ganpati</p>
-            <Button text="Live View"/>
+            <Button text="live view"/>
         </div>
     );
 }
