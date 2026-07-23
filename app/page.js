@@ -6,20 +6,23 @@ export default function Home() {
   const mandals = [
     {
       name: "Lalbaugcha Raja",
-      location: "Lalbaug, Mumbai"
+      location: "Lalbaug, Mumbai",
+      image :"/images/lalbaug_cha_raja.jpg"
     },
 
 
 
     {
       name: "GSB Seva Mandal",
-      location: "King's Circle, Mumbai"
+      location: "King's Circle, Mumbai",
+      image : "/images/gsb_seva_mandal.jpg"
     },
 
 
     {
       name: "Andhericha Raja",
-      location: "Andheri, Mumbai"
+      location: "Andheri, Mumbai",
+      image : "/images/Andhericha-Raja.webp"
     }
   ];
 
@@ -35,6 +38,7 @@ export default function Home() {
               key={mandal.name}
               name={mandal.name}
               location={mandal.location}
+              image = {mandal.image}
             />
           );
         })}
